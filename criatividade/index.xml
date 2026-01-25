@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Criatividade on Tecnologia e Criatividade - José Predebon</title>
+    <link>https://example.org/criatividade/</link>
+    <description>Recent content in Criatividade on Tecnologia e Criatividade - José Predebon</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 25 Jan 2026 18:03:57 -0300</lastBuildDate>
+    <atom:link href="https://example.org/criatividade/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Textos e Reflexões</title>
+      <link>https://example.org/criatividade/textos-reflexoes/</link>
+      <pubDate>Sun, 25 Jan 2026 18:03:57 -0300</pubDate>
+      <guid>https://example.org/criatividade/textos-reflexoes/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Autor:&lt;/strong&gt; José Predebon&lt;/p&gt;&#xA;&lt;p&gt;Disponíveis no site oficial: &lt;a href=&#34;https://predebon.com.br&#34;&gt;predebon.com.br&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Livro: Criatividade para Renovar Aulas</title>
+      <link>https://example.org/criatividade/criatividade-renovar-aulas/</link>
+      <pubDate>Sun, 25 Jan 2026 18:03:47 -0300</pubDate>
+      <guid>https://example.org/criatividade/criatividade-renovar-aulas/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Autor:&lt;/strong&gt; José Predebon&lt;br&gt;&#xA;&lt;strong&gt;Editora:&lt;/strong&gt; Brainstore&lt;br&gt;&#xA;&lt;strong&gt;Ano:&lt;/strong&gt; 2009&lt;/p&gt;&#xA;&lt;p&gt;Ideias para renovar aulas com criatividade.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Livro: Profissão Professor</title>
+      <link>https://example.org/criatividade/profissao-professor/</link>
+      <pubDate>Sun, 25 Jan 2026 18:03:38 -0300</pubDate>
+      <guid>https://example.org/criatividade/profissao-professor/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Autor:&lt;/strong&gt; José Predebon&lt;br&gt;&#xA;&lt;strong&gt;Editora:&lt;/strong&gt; Longarina / Cia dos Livros&lt;br&gt;&#xA;&lt;strong&gt;Ano:&lt;/strong&gt; 2010/2013&lt;/p&gt;&#xA;&lt;p&gt;Uma reflexão profunda sobre a profissão docente.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Livro: Criatividade</title>
+      <link>https://example.org/criatividade/criatividade-livro/</link>
+      <pubDate>Sun, 25 Jan 2026 18:03:27 -0300</pubDate>
+      <guid>https://example.org/criatividade/criatividade-livro/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Autor:&lt;/strong&gt; José Predebon&lt;br&gt;&#xA;&lt;strong&gt;Editora:&lt;/strong&gt; Pearson&lt;br&gt;&#xA;&lt;strong&gt;Edição:&lt;/strong&gt; 8ª edição (2013)&lt;/p&gt;&#xA;&lt;p&gt;Uma obra fundamental sobre criatividade, escrita pelo Professor José Predebon.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Professor José Predebon</title>
+      <link>https://example.org/criatividade/jose-predebon/</link>
+      <pubDate>Sun, 25 Jan 2026 18:03:17 -0300</pubDate>
+      <guid>https://example.org/criatividade/jose-predebon/</guid>
+      <description>&lt;p&gt;José Predebon foi professor, escritor e palestrante. Dedicou sua vida à educação, à criatividade e à formação de professores. Com uma carreira marcada por inovação e sensibilidade, deixou um legado de obras que continuam a inspirar educadores e alunos em todo o Brasil.&lt;/p&gt;&#xA;&lt;h2 id=&#34;obras-publicadas&#34;&gt;Obras Publicadas&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Criatividade&lt;/strong&gt; - Editora Pearson, 8ª edição (2013)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Profissão Professor&lt;/strong&gt; - Longarina / Cia dos Livros (2010/2013)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Criatividade para Renovar Aulas&lt;/strong&gt; - Brainstore (2009)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Textos e Reflexões&lt;/strong&gt; - Disponíveis no site oficial&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;📚 Acesse o site completo: &lt;a href=&#34;https://predebon.com.br&#34;&gt;predebon.com.br&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
