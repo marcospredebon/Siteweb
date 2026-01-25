@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tecnologia e Criatividade on My New Hugo Site</title><link>https://example.org/</link><description>Recent content in Tecnologia e Criatividade on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 25 Jan 2026 19:36:00 -0300</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Professor José Predebon</title><link>https://example.org/criatividade/jose-predebon/</link><pubDate>Sun, 25 Jan 2026 19:36:00 -0300</pubDate><guid>https://example.org/criatividade/jose-predebon/</guid><description>&lt;p&gt;José Predebon foi professor, escritor e palestrante. Dedicou sua vida à educação, à criatividade e à formação de professores. Com uma carreira marcada por inovação e sensibilidade, deixou um legado de obras que continuam a inspirar educadores e alunos em todo o Brasil.&lt;/p&gt;</description></item><item><title>Referências de Tecnologia</title><link>https://example.org/tecnologia/tecnologia/</link><pubDate>Sun, 25 Jan 2026 19:35:00 -0300</pubDate><guid>https://example.org/tecnologia/tecnologia/</guid><description>&lt;p&gt;Explore recursos sobre Microsoft Power Platform e ferramentas modernas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://azure.microsoft.com"&gt;Microsoft Azure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://visualstudio.microsoft.com"&gt;Visual Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://copilot.microsoft.com"&gt;Microsoft Copilot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://aka.ms/PowerPlatformResources"&gt;Cursos e vídeos do Power Platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://learn.microsoft.com/pt-br/power-platform/admin/pricing-billing-skus"&gt;Guia de Licenciamento Power Apps &amp;amp; Power Automate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://learn.microsoft.com/pt-br/microsoft-copilot-studio/billing-licensing"&gt;Licenciamento Copilot Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://learn.microsoft.com/pt-br/microsoft-copilot-studio/analytics-consumption"&gt;Tabela de consumo de créditos Copilot Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://learn.microsoft.com/pt-br/ai-builder/overview"&gt;Uso do AI Builder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://learn.microsoft.com/pt-br/power-platform/guidance/adoption/whats-new"&gt;Melhores práticas de adoção&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://learn.microsoft.com/pt-br/power-platform/guidance/coe/starter-kit"&gt;Kit do Centro de Excelência (CoE)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://learn.microsoft.com/pt-br/power-platform/alm/overview"&gt;Gerenciamento do ciclo de vida (ALM)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://learn.microsoft.com/pt-br/power-platform/alm/devops-build-tools"&gt;Build Tools para Azure DevOps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
