@@ -2,35 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/criatividade/</loc>
-    <lastmod>2026-01-25T18:09:32-03:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-25T19:34:38-03:00</lastmod>
   </url><url>
-    <loc>https://example.org/tecnologia/</loc>
-    <lastmod>2026-01-25T18:09:25-03:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://example.org/</loc>
-    <lastmod>2026-01-25T18:06:42-03:00</lastmod>
-  </url><url>
-    <loc>https://example.org/criatividade/textos-reflexoes/</loc>
-    <lastmod>2026-01-25T18:03:57-03:00</lastmod>
-  </url><url>
-    <loc>https://example.org/criatividade/criatividade-renovar-aulas/</loc>
-    <lastmod>2026-01-25T18:03:47-03:00</lastmod>
-  </url><url>
-    <loc>https://example.org/criatividade/profissao-professor/</loc>
-    <lastmod>2026-01-25T18:03:38-03:00</lastmod>
-  </url><url>
-    <loc>https://example.org/criatividade/criatividade-livro/</loc>
-    <lastmod>2026-01-25T18:03:27-03:00</lastmod>
-  </url><url>
-    <loc>https://example.org/criatividade/jose-predebon/</loc>
-    <lastmod>2026-01-25T18:03:17-03:00</lastmod>
-  </url><url>
-    <loc>https://example.org/tecnologia/tecnologia/</loc>
-    <lastmod>2026-01-25T18:03:06-03:00</lastmod>
-  </url><url>
-    <loc>https://example.org/categories/</loc>
-  </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
