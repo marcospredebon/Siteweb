@@ -1,0 +1,8 @@
+baseURL = '/'
+languageCode = 'pt-br'
+title = 'Tecnologia e Criatividade'
+theme = ''
+
+[module]
+[[module.imports]]
+path = 'github.com/example/example'
