@@ -1,0 +1,18 @@
+{{ define "main" }}
+<section class="terms-page">
+  <header class="terms-header">
+    <h1>{{ .Title }}</h1>
+    <p class="terms-description">
+      Total de {{ .Data.Plural }}: <strong>{{ len .Data.Terms }}</strong>
+    </p>
+  </header>
+
+  <div class="terms-cloud">
+    {{ range .Data.Terms.ByCount }}
+      <a href="{{ .Page.Permalink }}" class="term-link" style="font-size: {{ add 80 (mul 20 (div .Count (len $.Data.Terms))) }}%">
+        {{ .Term }} <span class="term-count">({{ .Count }})</span>
+      </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

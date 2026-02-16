@@ -1,0 +1,33 @@
+{{ define "main" }}
+<article class="single-page">
+  <header class="post-header">
+    <h1>{{ .Title }}</h1>
+    {{ if .Description }}
+      <p class="description">{{ .Description }}</p>
+    {{ end }}
+  </header>
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  {{ if .Params.tags }}
+    <footer class="post-footer">
+      <div class="tags">
+        {{ range .Params.tags }}
+          <a href="{{ relURL (printf "/tags/%s/" (urlize .)) }}" class="tag">{{ . }}</a>
+        {{ end }}
+      </div>
+    </footer>
+  {{ end }}
+
+  <nav class="post-nav">
+    {{ with .PrevInSection }}
+      <a href="{{ .Permalink }}" class="prev-post">← {{ .Title }}</a>
+    {{ end }}
+    {{ with .NextInSection }}
+      <a href="{{ .Permalink }}" class="next-post">{{ .Title }} →</a>
+    {{ end }}
+  </nav>
+</article>
+{{ end }}

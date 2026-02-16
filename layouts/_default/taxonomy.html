@@ -1,0 +1,23 @@
+{{ define "main" }}
+<section class="taxonomy-page">
+  <header class="taxonomy-header">
+    <h1>{{ .Title }}</h1>
+    <p class="taxonomy-description">
+      {{ .Data.Plural }}: <strong>{{ .Title }}</strong>
+    </p>
+  </header>
+
+  <div class="taxonomy-content">
+    {{ range .Paginator.Pages }}
+      <article class="taxonomy-item">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{ if .Summary }}
+          <p>{{ .Summary }}</p>
+        {{ end }}
+      </article>
+    {{ end }}
+  </div>
+
+  {{ template "partials/pagination.html" . }}
+</section>
+{{ end }}

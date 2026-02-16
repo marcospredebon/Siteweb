@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="page-list">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ if .Description }}
+      <p class="description">{{ .Description }}</p>
+    {{ end }}
+  </header>
+
+  <div class="content-list">
+    {{ range .Paginator.Pages }}
+      <article class="list-item">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{ if .Description }}
+          <p>{{ .Description }}</p>
+        {{ else if .Summary }}
+          <p>{{ .Summary }}</p>
+        {{ end }}
+        <a href="{{ .Permalink }}" class="read-more">Saiba mais →</a>
+      </article>
+    {{ end }}
+  </div>
+
+  {{ template "partials/pagination.html" . }}
+</section>
+{{ end }}
