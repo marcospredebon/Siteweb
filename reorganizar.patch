@@ -1,0 +1,8 @@
+diff --git a/criatividade b/content/criatividade
+rename from criatividade
+rename to content/criatividade
+
+diff --git a/content/livros b/content/livros
+deleted file mode 040000
+--- a/content/livros
++++ /dev/null
