@@ -29,6 +29,7 @@
     
 <!-- Galeria de Livros -->
 <div class="livros-grid">
+  <h3>Obras Publicadas</h3>
   {{ range (where .Site.RegularPages "Section" "criatividade") }}
     <article class="livro-card">
       {{ .Permalink }}
@@ -42,7 +43,7 @@
 </div>
 
     <div class="card">
-      <h3>Obras Publicadas</h3>
+      <h3>Artigos</h3>
       {{ range .Site.RegularPages }}
         {{ if eq .Section "criatividade" }}
           <div class="book">
