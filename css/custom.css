@@ -65,6 +65,26 @@ h2 {
   color: #0a66c2;
   text-decoration: none;
 }
+
+.livros-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 24px;
+}
+
+.livro-card img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.livro .capa {
+  width: min(280px, 100%);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
 footer {
   text-align: center;
   padding: 20px;
