@@ -1,4 +1,4 @@
-name: Build and deploy Hugo site to gh-pages
+name: Build and deploy Hugo site to main
 
 on:
   push:
@@ -38,12 +38,12 @@ jobs:
           ls -la
           ls -la "$GITHUB_WORKSPACE/public" || true
         
-      - name: Deploy to gh-pages
+      - name: Deploy to main
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: gh-pages
+          publish_branch: main
           force_orphan: false
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
