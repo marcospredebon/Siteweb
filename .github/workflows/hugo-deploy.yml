@@ -29,8 +29,16 @@ jobs:
           extended: true
 
       - name: Build site
-        run: hugo --destination public --minify
+        run: hugo --destination "$GITHUB_WORKSPACE/public" --minify
 
+      - name: Debug workspace
+        run: |
+          echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
+        pwd
+        ls -la
+        ls -la "$GITHUB_WORKSPACE/public" || true
+
+        
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
