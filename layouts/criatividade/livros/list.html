@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<section class="livros-list">
+  <h1>{{ .Title }}</h1>
+
+  {{ if .Description }}
+    <p>{{ .Description }}</p>
+  {{ end }}
+
+  <div class="livros-grid">
+
+    {{ range .Pages }}
+      <article class="livro-card">
+        {{ .RelPermalink }}
+
+          {{ with .Resources.GetMatch "capa.*" }}
+            {{ .RelPermalink }}
+          {{ end }}
+
+          <h3>{{ .Title }}</h3>
+
+          {{ with .Params.description }}
+            <p>{{ . }}</p>
+          {{ else }}
+            <p>{{ .Summary }}</p>
+          {{ end }}
+
+        </a>
+      </article>
+    {{ end }}
+
+  </div>
+
+</section>
+
+{{ end }}
