@@ -1,36 +1,35 @@
 {{ define "main" }}
-
 <section class="livros-list">
   <h1>{{ .Title }}</h1>
 
   {{ if .Description }}
-    <p>{{ .Description }}</p>
+    <p class="section-description">{{ .Description }}</p>
   {{ end }}
 
   <div class="livros-grid">
-
     {{ range .Pages }}
       <article class="livro-card">
+
         {{ .RelPermalink }}
+          <div class="capa-wrapper">
+            {{ with .Resources.GetMatch "capa.*" }}
+              {{ .RelPermalink }}
+            {{ else }}
+              <div class="capa-placeholder">Sem capa</div>
+            {{ end }}
+          </div>
 
-          {{ with .Resources.GetMatch "capa.*" }}
-            {{ .RelPermalink }}
-          {{ end }}
-
-          <h3>{{ .Title }}</h3>
+          <h3 class="livro-title">{{ .Title }}</h3>
 
           {{ with .Params.description }}
-            <p>{{ . }}</p>
+            <p class="livro-desc">{{ . }}</p>
           {{ else }}
-            <p>{{ .Summary }}</p>
+            <p class="livro-desc">{{ .Summary }}</p>
           {{ end }}
-
         </a>
+
       </article>
     {{ end }}
-
   </div>
-
 </section>
-
 {{ end }}
