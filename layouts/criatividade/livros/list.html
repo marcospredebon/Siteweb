@@ -1,11 +1,35 @@
 {{ define "main" }}
+<section class="livros-list">
+  <h1>{{ .Title }}</h1>
 
-TOTAL DE PÁGINAS DETECTADAS: {{ len .Pages }} <br>
-TOTAL DE PÁGINAS EM "RegularPages": {{ len .RegularPages }} <br>
-TOTAL EM "Pages": {{ len .Sections }} <br>
+  {{ if .Description }}
+    <p class="section-description">{{ .Description }}</p>
+  {{ end }}
 
-{{ range .Pages }}
-  - PÁGINA: {{ .Title }} ({{ .File.Path }}) <br>
-{{ end }}
+  <div class="livros-grid">
+    {{ range .Pages }}
+      <article class="livro-card">
 
+        {{ .RelPermalink }}
+          <div class="capa-wrapper">
+            {{ with .Resources.GetMatch "capa.*" }}
+              {{ .RelPermalink }}
+            {{ else }}
+              <div class="capa-placeholder">Sem capa</div>
+            {{ end }}
+          </div>
+
+          <h3 class="livro-title">{{ .Title }}</h3>
+        </a>
+
+        {{ with .Params.description }}
+          <p class="livro-desc">{{ . }}</p>
+        {{ else }}
+          <p class="livro-desc">{{ .Summary }}</p>
+        {{ end }}
+
+      </article>
+    {{ end }}
+  </div>
+</section>
 {{ end }}
