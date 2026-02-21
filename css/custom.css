@@ -1,3 +1,6 @@
+Total de páginas: {{ len .Pages }}
+
+
 body {
   font-family: "Segoe UI", sans-serif;
   margin: 0;
