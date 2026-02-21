@@ -1,0 +1,32 @@
+{{ define "main" }}
+<section class="criatividade-intro">
+  {{ .Content }}
+</section>
+
+<section class="livros-list">
+  <h2>Livros</h2>
+
+  <div class="livros-grid">
+    {{ with .Site.GetPage "section" "criatividade/livros" }}
+      {{ range .Pages }}
+        <article class="livro-card">
+
+          <a href="{{ .RelPermalink }}" class="livro-link">
+            <div class="capa-wrapper">
+              {{ with .Resources.GetMatch "capa.*" }}
+                <img src="{{ .RelPermalink }}" alt="Capa de {{ .Title }}" class="capa-img">
+              {{ else }}
+                <div class="capa-placeholder">Sem capa</div>
+              {{ end }}
+            </div>
+
+            <h3 class="livro-title">{{ .Title }}</h3>
+          </a>
+
+        </article>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}
