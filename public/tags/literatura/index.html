@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Literatura</title>
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+  <header>
+    <h1>Tecnologia e Criatividade</h1>
+    <p>Referências úteis de Tecnologia (Marcos Predebon)<br>
+       e Criatividade - legado do Professor José Predebon
+    </p>
+  </header>
+
+  <nav>
+    <button class="tab active" onclick="showSection('tecnologia')">Tecnologia</button>
+    <button class="tab" onclick="showSection('criatividade')">Criatividade</button>
+  </nav>
+
+  <div class="container">
+    
+<section class="taxonomy-page">
+  <header class="taxonomy-header">
+    <h1>Literatura</h1>
+    <p class="taxonomy-description">
+      tags: <strong>Literatura</strong>
+    </p>
+  </header>
+
+  <div class="taxonomy-content">
+    
+      <article class="taxonomy-item">
+        <h2><a href="//localhost:1313/criatividade/livros/deslimites/">Deslimites</a></h2>
+        
+          <p><p>Livro de poesia que revela o lado mais íntimo e lírico do autor,
+com textos que exploram limites, afetos e identidade.</p></p>
+        
+      </article>
+    
+  </div>
+
+  
+
+</section>
+
+  </div>
+
+  <footer>
+    © 2025 Marcos • Em memória de José Predebon
+  </footer>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+      event.target.classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Criatividade on Tecnologia e Criatividade</title>
+    <link>//localhost:1313/categories/criatividade/</link>
+    <description>Recent content in Criatividade on Tecnologia e Criatividade</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <atom:link href="//localhost:1313/categories/criatividade/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Criatividade – Abrindo o Lado Inovador da Mente</title>
+      <link>//localhost:1313/criatividade/livros/criatividade-abrindo-o-lado-inovador/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/criatividade/livros/criatividade-abrindo-o-lado-inovador/</guid>
+      <description>&lt;p&gt;Este é o livro mais conhecido de José Predebon e uma referência clássica&#xA;no estudo da criatividade no Brasil.&lt;/p&gt;&#xA;&lt;p&gt;A obra parte da ideia de que &lt;strong&gt;todos somos naturalmente criativos&lt;/strong&gt;, mas&#xA;acabamos reprimindo essa capacidade ao longo da vida. O autor propõe&#xA;exercícios, reflexões e abordagens práticas para resgatar o pensamento&#xA;criativo no cotidiano pessoal e profissional.&lt;/p&gt;&#xA;&lt;p&gt;É amplamente adotado em cursos de graduação e pós-graduação, especialmente&#xA;nas áreas de comunicação, administração e educação.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Criatividade Hoje: como se pratica, aprende e ensina</title>
+      <link>//localhost:1313/criatividade/livros/criatividade-hoje/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/criatividade/livros/criatividade-hoje/</guid>
+      <description>&lt;p&gt;Neste livro, José Predebon aprofunda a discussão sobre a criatividade como&#xA;&lt;strong&gt;processo aprendível&lt;/strong&gt;, afastando a ideia de talento inato restrito a poucos.&lt;/p&gt;&#xA;&lt;p&gt;A obra discute como a criatividade pode ser &lt;strong&gt;ensinada, praticada e aplicada&lt;/strong&gt;&#xA;em ambientes educacionais e organizacionais, com exemplos concretos&#xA;derivados da experiência do autor como professor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Criatividade para Renovar Aulas</title>
+      <link>//localhost:1313/criatividade/livros/criatividade-para-renovar-aulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/criatividade/livros/criatividade-para-renovar-aulas/</guid>
+      <description>&lt;p&gt;Voltado especialmente para professores, este livro propõe formas criativas&#xA;de renovar práticas pedagógicas sem depender exclusivamente de tecnologia.&lt;/p&gt;&#xA;&lt;p&gt;Predebon defende que a inovação em sala de aula começa pela &lt;strong&gt;atitude do educador&lt;/strong&gt;&#xA;e pela forma como ele se relaciona com o conteúdo e com os alunos.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gestão on Tecnologia e Criatividade</title>
+    <link>//localhost:1313/categories/gest%C3%A3o/</link>
+    <description>Recent content in Gestão on Tecnologia e Criatividade</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <atom:link href="//localhost:1313/categories/gest%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gestão da Inovação</title>
+      <link>//localhost:1313/criatividade/livros/gestao-da-inovacao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/criatividade/livros/gestao-da-inovacao/</guid>
+      <description>&lt;p&gt;Neste livro, o autor trata a inovação como um fenômeno organizacional&#xA;que depende mais de &lt;strong&gt;postura e cultura&lt;/strong&gt; do que apenas de processos formais.&lt;/p&gt;&#xA;&lt;p&gt;A obra dialoga com gestores, empreendedores e profissionais interessados&#xA;em criar ambientes propícios à inovação sustentável.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
