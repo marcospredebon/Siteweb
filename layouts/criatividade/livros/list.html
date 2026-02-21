@@ -1,4 +1,3 @@
-{{ errorf "EU SOU O ARQUIVO EDITADO" }}
 {{ define "main" }}
 <section class="livros-list">
   <h1>{{ .Title }}</h1>
@@ -11,10 +10,10 @@
     {{ range .Pages }}
       <article class="livro-card">
 
-        {{ .RelPermalink }}
+        <a href="{{ .RelPermalink }}" class="livro-link">
           <div class="capa-wrapper">
             {{ with .Resources.GetMatch "capa.*" }}
-              {{ .RelPermalink }}
+              <img src="{{ .RelPermalink }}" alt="Capa de {{ .Title }}" class="capa-img">
             {{ else }}
               <div class="capa-placeholder">Sem capa</div>
             {{ end }}
