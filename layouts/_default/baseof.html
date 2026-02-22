@@ -17,10 +17,10 @@
   </header>
 
   <nav class="main-menu">
-    <a href="/">Home</a>
-    <a href="/tecnologia/">Tecnologia</a>
-    <a href="/criatividade/">Criatividade</a>
-  </nav>
+    {{ .Site.BaseURL }}Home</a>
+    {{ .Site.BaseURL }}tecnologia/Tecnologia</a>
+    {{ .Site.BaseURL }}criatividade/Criatividade</a>
+</nav>
 
   <main class="container">
     {{ block "main" . }}{{ end }}
