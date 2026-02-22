@@ -1,64 +1,18 @@
 {{ define "main" }}
-<!-- Navigation tabs converted to actual links -->
-<div class="tabs">
-  <a href="/tecnologia/" class="tab">Tecnologia</a>
-  <a href="/criatividade/" class="tab">Criatividade</a>
-</div>
 
-<section id="tecnologia" class="section active">
-    <div class="card">
-      <h2>Referências de Tecnologia</h2>
-      <p>Explore recursos sobre Microsoft Power Platform e ferramentas modernas:</p>
-      <div class="link-list">
-        <!-- Adicione aqui os seus links de tecnologia -->
-        <a href="https://azure.microsoft.com">Microsoft Azure</a>
-        <a href="https://visualstudio.microsoft.com">Visual Studio</a>
-        <a href="https://github.com">GitHub</a>
-        <a href="https://copilot.microsoft.com">Microsoft Copilot</a>
-        <a href="https://aka.ms/PowerPlatformResources">Cursos e vídeos do Power Platform</a>
-        <a href="https://learn.microsoft.com/pt-br/power-platform/admin/pricing-billing-skus">Guia de Licenciamento Power Apps & Power Automate</a>
-        <a href="https://learn.microsoft.com/pt-br/microsoft-copilot-studio/billing-licensing">Licenciamento Copilot Studio</a>
-        <a href="https://learn.microsoft.com/pt-br/microsoft-copilot-studio/analytics-consumption">Tabela de consumo de créditos Copilot Studio</a>
-        <a href="https://learn.microsoft.com/pt-br/ai-builder/overview">Uso do AI Builder</a>
-        <a href="https://learn.microsoft.com/pt-br/power-platform/guidance/adoption/whats-new">Melhores práticas de adoção</a>
-        <a href="https://learn.microsoft.com/pt-br/power-platform/guidance/coe/starter-kit">Kit do Centro de Excelência (CoE)</a>
-        <a href="https://learn.microsoft.com/pt-br/power-platform/alm/overview">Gerenciamento do ciclo de vida (ALM)</a>
-        <a href="https://learn.microsoft.com/pt-br/power-platform/alm/devops-build-tools">Build Tools para Azure DevOps</a>
-      </div>
-    </div>
-</section>
+<section class="home-intro">
+  <h2>Referências de Tecnologia</h2>
+  <p>Explore recursos sobre Microsoft Power Platform e ferramentas modernas:</p>
 
-<section id="criatividade" class="section">
-  <div class="card">
-      <h2>Professor José Predebon</h2>
-      <p>José Predebon (✝ Maio 2025) foi professor, escritor e palestrante. Dedicou sua vida à educação, à criatividade e à formação de professores. Com uma carreira marcada por inovação e sensibilidade, deixou um legado de obras que continuam a inspirar educadores e alunos em todo o Brasil.</p>
-  </div>
-
-  <!-- Galeria de Livros -->
-  <div class="livros-grid">
-    {{ range (where .Site.RegularPages "Section" "criatividade") }}
-      <article class="livro-card">
-        <a href="{{ .Permalink }}">
-          {{ with .Resources.GetMatch "capa*" }}
-            <img src="{{ .RelPermalink }}" alt="Capa de {{ .Title }}" />
-          {{ end }}
-          <h3>{{ .Title }}</h3>
-        </a>
-      </article>
-    {{ end }}
-  </div>
-
-  <div class="card">
-    <h3>Obras Publicadas</h3>
-    {{ range .Site.RegularPages }}
-      {{ if eq .Section "criatividade" }}
-        <div class="book">
-          <div class="book-title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
-          <div>{{ .Summary }}</div>
-        </div>
-      {{ end }}
-    {{ end }}
-    <p>📚 Acesse o site completo: <a href="https://predebon.com.br">predebon.com.br</a></p>
+  <div class="link-list">
+      https://azure.microsoft.comMicrosoft Azure</a>
+      https://visualstudio.microsoft.comVisual Studio</a>
+      https://github.comGitHub</a>
+      https://copilot.microsoft.comMicrosoft Copilot</a>
+      https://aka.ms/PowerPlatformResourcesCursos e vídeos do Power Platform</a>
+      https://learn.microsoft.com/pt-br/power-platform/admin/pricing-billing-skusLicenciamento Power Apps</a>
+      https://learn.microsoft.com/pt-br/power-platform/guidance/adoption/whats-newMelhores práticas de adoção</a>
+      https://learn.microsoft.com/pt-br/power-platform/alm/overviewALM para Power Platform</a>
   </div>
 </section>
 
