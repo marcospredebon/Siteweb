@@ -9,12 +9,11 @@
   <div class="livros-grid">
     {{ with .Site.GetPage "section" "criatividade/livros" }}
          {{ errorf "ACHEI A SEÇÃO LIVROS!" }}
-{{ else }}
-   {{ errorf "NAO ACHEI A SEÇÃO LIVROS" }}
-{{ end }}
-    
-       
+      {{ else }}
+        {{ errorf "NAO ACHEI A SEÇÃO LIVROS" }}
     {{ end }}
+         
+
   </div>
 </section>
 
