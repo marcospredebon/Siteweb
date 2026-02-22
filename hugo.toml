@@ -1,3 +1,10 @@
-baseURL = '/'
-languageCode = 'pt-br'
-title = 'Tecnologia e Criatividade'
+[menu]
+  [[menu.main]]
+    name = "Tecnologia"
+    url = "/tecnologia/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Criatividade"
+    url = "/criatividade/"
+    weight = 2
