@@ -1,21 +1,16 @@
-{{ errorf "TEMPLATE CRIATIVIDADE LIST ATIVO" }}
-
 {{ define "main" }}
 
 <h1>{{ .Title }}</h1>
-
 <p>{{ .Description }}</p>
 
 <h2>Livros</h2>
 
 <ul>
-{{ with site.GetPage "/criatividade/livros" }}
-  {{ range .Pages }}
-    <li>
-      {{ .RelPermalink }}{{ .Title }}</a>
-    </li>
+  {{ with site.GetPage "/criatividade/livros" }}
+    {{ range .Pages }}
+      <li>{{ .RelPermalink }}{{ .Title }}</a></li>
+    {{ end }}
   {{ end }}
-{{ end }}
 </ul>
 
 {{ end }}
