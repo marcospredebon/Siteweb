@@ -1,5 +1,3 @@
-{{ errorf "CRIATIVIDADE LIST FOI CARREGADO" }}
-
 {{ define "main" }}
 <section class="criatividade-intro">
   {{ .Content }}
@@ -10,23 +8,12 @@
 
   <div class="livros-grid">
     {{ with .Site.GetPage "section" "criatividade/livros" }}
-      {{ range .Pages }}
-        <article class="livro-card">
-
-          <a href="{{ .RelPermalink }}" class="livro-link">
-            <div class="capa-wrapper">
-              {{ with .Resources.GetMatch "capa.*" }}
-                <img src="{{ .RelPermalink }}" alt="Capa de {{ .Title }}" class="capa-img">
-              {{ else }}
-                <div class="capa-placeholder">Sem capa</div>
-              {{ end }}
-            </div>
-
-            <h3 class="livro-title">{{ .Title }}</h3>
-          </a>
-
-        </article>
-      {{ end }}
+         {{ errorf "ACHEI A SEÇÃO LIVROS!" }}
+{{ else }}
+   {{ errorf "NAO ACHEI A SEÇÃO LIVROS" }}
+{{ end }}
+    
+       
     {{ end }}
   </div>
 </section>
