@@ -8,5 +8,6 @@ tags: ["romance", "ficção"]
 cover: "capa.jpg"
 resources:
   - src: "capa.jpg"
+---
 Romance que explora múltiplas perspectivas humanas,
 em sintonia com a visão caleidoscópica do autor sobre a sociedade.
