@@ -4,10 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>{{ .Title }}</title>
-  {{ .Site.BaseURL }}css/custom.css
+  <!-- CSS CORRETO: link para custom.css com BaseURL -->
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css"> 
 </head>
 <body>
- 
   <header>
     <h1>Tecnologia e Criatividade</h1>
     <p>
@@ -19,9 +19,7 @@
   <nav class="main-menu">
     <a href="{{ .Site.BaseURL }}tecnologia/">Tecnologia</a>
     <a href="{{ .Site.BaseURL }}criatividade/">Criatividade</a>
-  
   </nav>
-
 
   <main class="container">
     {{ block "main" . }}{{ end }}
