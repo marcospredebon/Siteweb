@@ -1,48 +1,54 @@
+/* Base styles */
 body {
   font-family: "Segoe UI", sans-serif;
   margin: 0;
   background: #f4f6f8;
   color: #333;
 }
+
+/* Header with blue background */
 header {
   background: #0a66c2;
   color: white;
-  padding: 20px;
+  padding: 40px 20px;
   text-align: center;
 }
+
+/* Sub-title styling */
 header p {
   margin-top: 10px;
   font-size: 16px;
+  color: #e5f2ff;
 }
-nav {
+
+/* Main menu styled as tabs */
+.main-menu {
   display: flex;
   justify-content: center;
   background: #e0e7ef;
   border-bottom: 2px solid #0a66c2;
 }
-nav button {
-  background: none;
-  border: none;
+
+.main-menu a {
   padding: 14px 20px;
-  cursor: pointer;
   font-weight: bold;
   color: #0a66c2;
   font-size: 16px;
+  text-decoration: none;
 }
-nav button.active {
-  border-bottom: 4px solid #0a66c2;
+
+.main-menu a:hover {
+  background: #f4f7fb;
 }
+
+/* Content container */
 .container {
   max-width: 1000px;
   margin: 30px auto;
   padding: 0 20px;
 }
-.section {
-  display: none;
-}
-.section.active {
-  display: block;
-}
+
+/* Card styling */
 .card {
   background: white;
   padding: 20px;
@@ -50,21 +56,54 @@ nav button.active {
   margin-bottom: 20px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
+
 h2 {
   color: #0a66c2;
 }
-.book {
-  margin-bottom: 12px;
-}
-.book-title {
-  font-weight: bold;
-}
+
+/* Links list styling */
 .link-list a {
   display: block;
   margin: 6px 0;
   color: #0a66c2;
   text-decoration: none;
 }
+
+/* Gallery of books styling */
+.livros-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.livro-card {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  text-align: center;
+}
+
+.livro-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.livro-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.livro-card h3 {
+  font-size: 1rem;
+  margin: 10px 0 0;
+  color: #0a66c2;
+}
+
+/* Footer styling */
 footer {
   text-align: center;
   padding: 20px;
