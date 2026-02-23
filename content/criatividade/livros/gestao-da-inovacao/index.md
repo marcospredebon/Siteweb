@@ -5,7 +5,8 @@ year: 2008
 publisher: "Profitbooks"
 categories: ["inovação", "gestão"]
 tags: ["organizações", "estratégia", "criatividade"]
-cover: "capa.jpg"
+resources:
+  - src: "capa.jpg"
 ---
 
 Neste livro, o autor trata a inovação como um fenômeno organizacional

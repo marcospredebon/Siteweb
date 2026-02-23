@@ -5,7 +5,8 @@ year: 2003
 publisher: "Atlas"
 categories: ["criatividade", "educação"]
 tags: ["aprendizado", "inovação", "ensino"]
-cover: "capa.jpg"
+resources:
+  - src: "capa.jpg"
 ---
 
 Neste livro, José Predebon aprofunda a discussão sobre a criatividade como

@@ -5,7 +5,8 @@ year: 2001
 publisher: "Atlas"
 categories: ["organizações", "sociedade"]
 tags: ["relações-humanas", "trabalho", "ética"]
-cover: "capa.jpg"
+resources:
+  - src: "capa.jpg"
 ---
 
 Neste livro, Predebon aborda as relações humanas no ambiente de trabalho

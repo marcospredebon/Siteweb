@@ -5,7 +5,8 @@ year: 2010
 publisher: "Cia dos Livros"
 categories: ["educação"]
 tags: ["docência", "ensino", "reflexão"]
-cover: "capa.jpg"
+resources:
+  - src: "capa.jpg"
 ---
 
 Reflexões sobre o papel do professor contemporâneo, reunindo

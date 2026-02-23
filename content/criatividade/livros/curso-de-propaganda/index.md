@@ -5,7 +5,8 @@ year: 2007
 publisher: "Atlas"
 categories: ["comunicação", "propaganda"]
 tags: ["publicidade", "criatividade", "marketing"]
-cover: "capa.jpg"
+resources:
+  - src: "capa.jpg"
 ---
 
 Livro didático voltado à formação em propaganda, abordando desde os

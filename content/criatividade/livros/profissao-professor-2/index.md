@@ -5,7 +5,8 @@ year: 2013
 publisher: "Longarina"
 categories: ["educação"]
 tags: ["docência", "experiência", "ensino"]
-cover: "capa.jpg"
+resources:
+  - src: "capa.jpg"
 ---
 
 Continuação das reflexões iniciadas em *Profissão Professor*,

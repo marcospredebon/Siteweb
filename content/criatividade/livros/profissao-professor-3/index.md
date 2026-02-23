@@ -5,7 +5,8 @@ year: 2020
 publisher: "Longarina"
 categories: ["educação"]
 tags: ["docência", "experiência", "ensino"]
-cover: "capa.jpg"
+resources:
+  - src: "capa.jpg"
 ---
 
 Terceiro volume da série, trazendo ficções mínimas, casos

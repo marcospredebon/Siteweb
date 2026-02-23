@@ -5,7 +5,8 @@ year: 2019
 publisher: "Editora Lima"
 categories: ["reflexão", "vida"]
 tags: ["envelhecimento", "experiência", "tempo"]
-cover: "capa.jpg"
+resources:
+  - src: "capa.jpg"
 ---
 
 Reflexão madura sobre envelhecimento, tempo e sentido da vida,

@@ -5,7 +5,8 @@ year: 2000
 publisher: "Atlas"
 categories: ["propaganda", "comunicação"]
 tags: ["publicidade", "mercado", "prática"]
-cover: "capa.jpg"
+resources:
+  - src: "capa.jpg"
 ---
 
 Obra organizada por José Predebon com contribuições de profissionais

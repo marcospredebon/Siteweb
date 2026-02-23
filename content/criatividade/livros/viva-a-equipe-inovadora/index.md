@@ -5,7 +5,8 @@ year: 2012
 publisher: "Quark Press Editorial"
 categories: ["inovação", "trabalho-em-equipe"]
 tags: ["liderança", "equipes", "criatividade"]
-cover: "capa.jpg"
+resources:
+  - src: "capa.jpg"
 ---
 
 A obra discute o funcionamento de equipes inovadoras e o papel da liderança

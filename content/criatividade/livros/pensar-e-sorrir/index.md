@@ -5,7 +5,8 @@ year: 2011
 publisher: "Cia dos Livros"
 categories: ["reflexão"]
 tags: ["humor", "pensamento", "cotidiano"]
-cover: "capa.jpg"
+resources:
+  - src: "capa.jpg"
 ---
 
 Livro de reflexões breves, onde o autor mistura humor,

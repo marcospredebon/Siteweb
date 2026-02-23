@@ -5,7 +5,8 @@ year: 2013
 publisher: "Pearson"
 categories: ["criatividade", "inovação"]
 tags: ["criatividade", "pensamento", "educação"]
-cover: "capa.jpg"
+cresources:
+  - src: "capa.jpg"
 ---
 
 Este é o livro mais conhecido de José Predebon e uma referência clássica

@@ -5,7 +5,8 @@ year: 2009
 publisher: "Brainstore"
 categories: ["criatividade", "educação"]
 tags: ["ensino", "didática", "inovação"]
-cover: "capa.jpg"
+resources:
+  - src: "capa.jpg"
 ---
 
 Voltado especialmente para professores, este livro propõe formas criativas

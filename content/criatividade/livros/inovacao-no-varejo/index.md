@@ -5,7 +5,8 @@ year: 2009
 publisher: "Atlas"
 categories: ["inovação", "varejo"]
 tags: ["negócios", "criatividade", "mercado"]
-cover: "capa.jpg"
+resources:
+  - src: "capa.jpg"
 ---
 
 Livro focado nos desafios e oportunidades da inovação no setor varejista.
