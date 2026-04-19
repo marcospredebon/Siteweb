@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="book-page">
+  <div class="book-cover">
+    {{ with .Resources.GetMatch "capa.*" }}
+      <img src="{{ .RelPermalink }}" alt="Capa de {{ .Title }}" />
+    {{ end }}
+  </div>
+
+  <div class="book-details">
+    <h1>{{ .Title }}</h1>
+    <p>Livro de Poesias de José Predebon</p>
+
+    {{ with .Params.buttonText }}
+      <p class="book-action">
+        <a href="{{ $.Params.buttonURL | relURL }}" class="button">{{ . }}</a>
+      </p>
+    {{ end }}
+  </div>
+</article>
+
+{{ if .Content }}
+<section class="book-description">
+  {{ .Content }}
+</section>
+{{ end }}
+{{ end }}
