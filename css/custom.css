@@ -86,23 +86,23 @@ header p {
 }
 
 /* Poesias table */
-.book-details table {
+.post-content table {
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
 }
 
-.book-details table td {
+.post-content table td {
   padding: 8px 12px;
   border: 1px solid #ddd;
 }
 
-.book-details table a {
+.post-content table a {
   color: #0a66c2;
   text-decoration: none;
 }
 
-.book-details table a:hover {
+.post-content table a:hover {
   text-decoration: underline;
 }
 
