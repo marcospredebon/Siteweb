@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="poesias-section">
+  <header class="section-header">
+    <h1>{{ .Title }}</h1>
+    {{ if .Description }}
+      <p class="section-description">{{ .Description }}</p>
+    {{ end }}
+  </header>
+
+  <div class="poesias-grid">
+    {{ range .Pages.ByTitle }}
+      <article class="poesia-card">
+        <a href="{{ .RelPermalink }}">
+          <h2>{{ .Title }}</h2>
+          {{ if .Summary }}
+            <p>{{ .Summary }}</p>
+          {{ else }}
+            <p>Leia esta poesia inteira.</p>
+          {{ end }}
+        </a>
+      </article>
+    {{ end }}
+  </div>
+
+  <footer class="poesias-footer">
+    <p>“É PRECISO PARTIR JÁ, HÁ MUITAS VERDADES A VISITAR”.</p>
+  </footer>
+</section>
+{{ end }}
