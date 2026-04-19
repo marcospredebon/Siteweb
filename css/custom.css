@@ -123,7 +123,18 @@ header p {
   text-decoration: none;
 }
 
-.poesia-card h2 {
+.poesia-summary {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.65;
+  max-height: calc(1.65em * 5);
+}
+
+.poesia-card h2,
+.poesia-card h3 {
   margin: 0 0 10px;
   font-size: 1.1rem;
   color: #102a43;
