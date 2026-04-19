@@ -18,7 +18,7 @@
 
           <div class="poesias-grid">
             {{ range .Site.RegularPages }}
-              {{ if eq .Section "livros" }}
+              {{ if strings.HasPrefix .RelPermalink "/criatividade/livros/deslimites/poesias/" }}
                 <article class="poesia-card">
                   <a href="{{ .RelPermalink }}">
                     <h3>{{ .Title }}</h3>

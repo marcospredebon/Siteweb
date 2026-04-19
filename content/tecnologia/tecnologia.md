@@ -1,8 +1,8 @@
-+++
-date = '2026-01-25T19:35:00-03:00'
-draft = false
-title = 'Referências de Tecnologia'
-+++
+---
+date: '2026-01-25T19:35:00-03:00'
+draft: false
+title: 'Referências de Tecnologia'
+---
 
 Explore recursos sobre Microsoft Power Platform e ferramentas modernas:
 
