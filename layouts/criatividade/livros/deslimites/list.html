@@ -21,11 +21,15 @@
               <article class="poesia-card">
                 <a href="{{ .RelPermalink }}">
                   <h3>{{ .Title }}</h3>
-                  {{ if .Summary }}
-                    <p>{{ .Summary }}</p>
-                  {{ else }}
-                    <p>Leia esta poesia inteira.</p>
-                  {{ end }}
+                  <div class="poesia-summary">
+                    {{ if .Summary }}
+                      {{ .Summary | safeHTML }}
+                    {{ else if .Plain }}
+                      <p>{{ .Plain | truncate 240 }}</p>
+                    {{ else }}
+                      <p>Leia esta poesia inteira.</p>
+                    {{ end }}
+                  </div>
                 </a>
               </article>
             {{ end }}
