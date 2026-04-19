@@ -245,3 +245,68 @@ footer {
   font-size: 13px;
   color: #777;
 }
+
+/* Poem page styles - centered text */
+.poem-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.poem-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.poem-header h1 {
+  color: #0a66c2;
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.poem-header .description {
+  color: #667085;
+  font-size: 1rem;
+  margin: 0;
+  font-style: italic;
+}
+
+.poem-content {
+  text-align: center;
+  line-height: 1.8;
+  color: #374151;
+  font-size: 1.05rem;
+  margin-bottom: 48px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: "Georgia", serif;
+}
+
+.poem-content p {
+  margin-bottom: 1.2em;
+  white-space: pre-wrap;
+}
+
+.poem-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+  gap: 20px;
+}
+
+.poem-nav a {
+  color: #0a66c2;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.poem-nav a:hover {
+  color: #084a9c;
+  text-decoration: underline;
+}
