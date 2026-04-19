@@ -48,6 +48,64 @@ header p {
   padding: 0 20px;
 }
 
+/* Book page styles */
+.book-page {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.book-cover img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.book-details {
+  flex: 1;
+}
+
+.book-details h2 {
+  color: #0a66c2;
+  margin-bottom: 10px;
+}
+
+.book-link {
+  display: inline-block;
+  background: #0a66c2;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.book-link:hover {
+  background: #084a9c;
+}
+
+/* Poesias table */
+.poesias-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.poesias-table td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+}
+
+.poesias-table a {
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+.poesias-table a:hover {
+  text-decoration: underline;
+}
+
 /* Card styling */
 .card {
   background: white;

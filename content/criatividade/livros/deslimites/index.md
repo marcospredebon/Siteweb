@@ -9,15 +9,79 @@ resources:
   - src: "capa.jpg"
 ---
 
-<!-- Coloque o arquivo de imagem da capa em content/criatividade/livros/deslimites/capa.jpg -->
-
 <div class="book-page">
   <div class="book-cover">
     <img src="capa.jpg" alt="Capa do livro Deslimites" />
   </div>
 
   <div class="book-details">
-    <p>Livro de poesia que revela o lado mais íntimo e lírico do autor, com textos que exploram limites, afetos e identidade.</p>
-    <p><a href="/criatividade/livros/deslimites/poesias/" class="book-link">Ver cada poesia</a></p>
+    <h2>DESLIMITES</h2>
+    <p>Livro de Poesias de José Predebon</p>
+
+    <table class="poesias-table">
+      <tr>
+        <td><a href="/criatividade/livros/deslimites/poesias/deslimites/">DESLIMITES</a></td>
+        <td><a href="/criatividade/livros/deslimites/poesias/o-que-vale-o-voar/">O QUE VALE O VOAR</a> e <a href="/criatividade/livros/deslimites/poesias/desconfio-da-logica/">DESCONFIO DA LÓGICA</a></td>
+      </tr>
+      <tr>
+        <td><a href="/criatividade/livros/deslimites/poesias/so-viver/">SÓ VIVER</a></td>
+        <td><a href="/criatividade/livros/deslimites/poesias/nada-se-deve/">NADA SE DEVE</a></td>
+      </tr>
+      <tr>
+        <td><a href="/criatividade/livros/deslimites/poesias/sonho/">SONHO</a></td>
+        <td><a href="/criatividade/livros/deslimites/poesias/ajuste/">AJUSTE</a> e <a href="/criatividade/livros/deslimites/poesias/desencanto/">DESENCANTO</a></td>
+      </tr>
+      <tr>
+        <td><a href="/criatividade/livros/deslimites/poesias/dialogo/">DIÁLOGO</a> e <a href="/criatividade/livros/deslimites/poesias/toma-la/">TOMA LÁ</a></td>
+        <td><a href="/criatividade/livros/deslimites/poesias/reflexao/">REFLEXÃO</a></td>
+      </tr>
+      <tr>
+        <td><a href="/criatividade/livros/deslimites/poesias/do-ambicioso/">DO AMBICIOSO</a></td>
+        <td><a href="/criatividade/livros/deslimites/poesias/seja-assim/">SEJA ASSIM</a> e <a href="/criatividade/livros/deslimites/poesias/pesadelo/">PESADELO</a></td>
+      </tr>
+      <tr>
+        <td><a href="/criatividade/livros/deslimites/poesias/ao-que-vai/">AO QUE VAI</a></td>
+        <td><a href="/criatividade/livros/deslimites/poesias/amizade/">AMIZADE</a> e <a href="/criatividade/livros/deslimites/poesias/solidariedade/">SOLIDARIEDADE</a></td>
+      </tr>
+      <tr>
+        <td><a href="/criatividade/livros/deslimites/poesias/ritos/">RITOS</a> e <a href="/criatividade/livros/deslimites/poesias/dar-se/">DAR-SE</a></td>
+        <td><a href="/criatividade/livros/deslimites/poesias/lembras/">LEMBRAS</a> e <a href="/criatividade/livros/deslimites/poesias/so-e-bem/">SÓ E BEM</a></td>
+      </tr>
+      <tr>
+        <td><a href="/criatividade/livros/deslimites/poesias/enlevo/">ENLEVO</a></td>
+        <td><a href="/criatividade/livros/deslimites/poesias/lembrancas/">LEMBRANÇAS</a></td>
+      </tr>
+      <tr>
+        <td><a href="/criatividade/livros/deslimites/poesias/expectativa/">EXPECTATIVA</a></td>
+        <td><a href="/criatividade/livros/deslimites/poesias/ser-especial/">SER ESPECIAL</a></td>
+      </tr>
+      <tr>
+        <td><a href="/criatividade/livros/deslimites/poesias/do-pai/">DO PAI</a></td>
+        <td><a href="/criatividade/livros/deslimites/poesias/do-velho-no-espelho/">DO VELHO NO ESPELHO</a> e <a href="/criatividade/livros/deslimites/poesias/autenticidade/">AUTENTICIDADE</a></td>
+      </tr>
+      <tr>
+        <td><a href="/criatividade/livros/deslimites/poesias/a-arte-do-possivel/">A ARTE DO POSSIVEL</a> e <a href="/criatividade/livros/deslimites/poesias/conciliar/">CONCILIAR</a></td>
+        <td><a href="/criatividade/livros/deslimites/poesias/mudar/">MUDAR</a></td>
+      </tr>
+      <tr>
+        <td><a href="/criatividade/livros/deslimites/poesias/plano-de-defesa/">PLANO DE DEFESA</a> e <a href="/criatividade/livros/deslimites/poesias/andar-e-preciso/">ANDAR É PRECISO</a></td>
+        <td><a href="/criatividade/livros/deslimites/poesias/sim-e-nao/">SIM E NÃO</a> e <a href="/criatividade/livros/deslimites/poesias/gregarios/">GREGÁRIOS?</a></td>
+      </tr>
+      <tr>
+        <td><a href="/criatividade/livros/deslimites/poesias/por-quem-os-jovens-voam/">POR QUEM OS JOVENS VOAM</a></td>
+        <td><a href="/criatividade/livros/deslimites/poesias/filhos/">FILHOS</a></td>
+      </tr>
+      <tr>
+        <td><a href="/criatividade/livros/deslimites/poesias/ser-natural/">SER NATURAL</a></td>
+        <td><a href="/criatividade/livros/deslimites/poesias/natal/">NATAL</a></td>
+      </tr>
+      <tr>
+        <td><a href="/criatividade/livros/deslimites/poesias/ano-novo/">ANO NOVO</a> e <a href="/criatividade/livros/deslimites/poesias/ate-sempre/">ATÉ SEMPRE</a></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <p>“É PRECISO PARTIR JÁ, HÁ MUITAS VERDADES A VISITAR”.</p>
+    <p>(*) clique nos títulos para ler</p>
   </div>
 </div>
