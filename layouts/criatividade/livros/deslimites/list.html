@@ -17,19 +17,17 @@
           </header>
 
           <div class="poesias-grid">
-            {{ range .Site.RegularPages }}
-              {{ if eq .Section "poesias" }}
-                <article class="poesia-card">
-                  <a href="{{ .RelPermalink }}">
-                    <h3>{{ .Title }}</h3>
-                    {{ if .Summary }}
-                      <p>{{ .Summary }}</p>
-                    {{ else }}
-                      <p>Leia esta poesia inteira.</p>
-                    {{ end }}
-                  </a>
-                </article>
-              {{ end }}
+            {{ range .RegularPages.ByTitle }}
+              <article class="poesia-card">
+                <a href="{{ .RelPermalink }}">
+                  <h3>{{ .Title }}</h3>
+                  {{ if .Summary }}
+                    <p>{{ .Summary }}</p>
+                  {{ else }}
+                    <p>Leia esta poesia inteira.</p>
+                  {{ end }}
+                </a>
+              </article>
             {{ end }}
           </div>
         </section>
