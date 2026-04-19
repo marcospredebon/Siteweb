@@ -142,6 +142,29 @@ header p {
   font-style: italic;
 }
 
+.poesias-index {
+  margin-top: 40px;
+  padding: 28px;
+  background: #f8fafc;
+  border-radius: 24px;
+}
+
+.poesias-index header {
+  margin-bottom: 22px;
+}
+
+.poesias-index h2 {
+  margin: 0 0 10px;
+  font-size: 1.45rem;
+  color: #0f172a;
+}
+
+.poesias-index p {
+  margin: 0;
+  color: #334155;
+  line-height: 1.75;
+}
+
 @media (max-width: 860px) {
   .book-page {
     grid-template-columns: 1fr;

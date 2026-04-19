@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <main class="page-content">
+    <article>
+      <header>
+        <h1>{{ .Title }}</h1>
+      </header>
+
+      <div class="section-body">
+        {{ .Content }}
+      </div>
+
+      {{ with .GetPage "poesias" }}
+        <section class="poesias-index">
+          <header>
+            <h2>Índice de poesias</h2>
+            {{ with .Description }}<p>{{ . }}</p>{{ end }}
+          </header>
+
+          <div class="poesias-grid">
+            {{ range .Pages.ByTitle }}
+              <article class="poesia-card">
+                <a href="{{ .RelPermalink }}">
+                  <h3>{{ .Title }}</h3>
+                  {{ if .Summary }}
+                    <p>{{ .Summary }}</p>
+                  {{ else }}
+                    <p>Leia esta poesia inteira.</p>
+                  {{ end }}
+                </a>
+              </article>
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+    </article>
+  </main>
+{{ end }}
