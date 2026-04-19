@@ -5,194 +5,134 @@ description: "Poesia do livro Deslimites"
 
 FILHOS
 
+ 
 
+Olho a obra e me reconheço autor
 
-Olho
-a obra e me reconheço autor
+mas onde o orgulho de criador?
 
-mas
-onde o orgulho de criador?
+Vejo-me perplexo como um sonâmbulo
 
-Vejo-me
-perplexo como um sonâmbulo
+Admirando o que pintou dormindo.
 
-Admirando
-o que pintou dormindo.
+ 
 
+Aconteceu involuntariamente
 
+como respirar
 
-Aconteceu
-involuntariamente
+chorar e rir ou tropeçar
 
-como
-respirar
+descobrir e amar.
 
-chorar
-e rir ou tropeçar
+Assim eu entregava sem pensar
 
-descobrir
-e amar.
+fórmulas do meu laboratório de viver.
 
-Assim
-eu entregava sem pensar
+ 
 
-fórmulas
-do meu laboratório de viver.
+Foram amores e temores
 
+pendores de mil teores
 
+desejos grandes e caprichos pequenos
 
-Foram
-amores e temores
+idéias cândidas e ideais exóticos
 
-pendores
-de mil teores
+causas e efeitos e defeitos.
 
-desejos
-grandes e caprichos pequenos
+Era o que eu tinha e o que dei
 
-idéias
-cândidas e ideais exóticos
+sem méritos nem culpas
 
-causas
-e efeitos e defeitos.
+porque pais não aprendem a dar
 
-Era
-o que eu tinha e o que dei
+e nunca filhos bem sabem pedir.
 
-sem
-méritos nem culpas
+ 
 
-porque
-pais não aprendem a dar
+Estranho e controvertido legado
 
-e
-nunca filhos bem sabem pedir.
+hoje constato que a vocês fluiu
 
+sob a tona das mundanidades.
 
+Indefinida e indecisa herança
 
-Estranho
-e controvertido legado
+tal neblina ocultando lampejos
 
-hoje
-constato que a vocês fluiu
+de utópica e imprecisa ética
 
-sob
-a tona das mundanidades.
+cheia de leis e punições.
 
-Indefinida
-e indecisa herança
+ 
 
-tal
-neblina ocultando lampejos
+Desta melancólica revisão
 
-de
-utópica e imprecisa ética
+colho enfim uma conclusão.
 
-cheia
-de leis e punições.
+E há algo reconfortante
 
+no balanço importante.
 
+Encontro um valioso tesouro
 
-Desta
-melancólica revisão
+que começo a gastar em versos.
 
-colho
-enfim uma conclusão.
+Meus filhos vocês também
 
-E
-há algo reconfortante
+sem querer
 
-no
-balanço importante.
+me entregam sua bagagem
 
-Encontro
-um valioso tesouro
+de saber
 
-que
-começo a gastar em versos.
+apenas praticando suas maneiras
 
-Meus
-filhos vocês também
+de ver.
 
-sem
-querer
+Vocês vivendo
 
-me
-entregam sua bagagem
+Devolvem o recebido
 
-de
-saber
+agora temperado
 
-apenas
-praticando suas maneiras
+com a grandeza da pureza jovem
 
-de
-ver.
+a abertura da cultura nova
 
-Vocês
-vivendo
+a depuração da ótica livre
 
-Devolvem
-o recebido
+renascida à margem de vias batidas.
 
-agora
-temperado
+Sinto no ar verdadeiro milagre
 
-com
-a grandeza da pureza jovem
+descubro em mim desconhecido ser
 
-a
-abertura da cultura nova
+trocado pelo privilégio de entender
 
-a
-depuração da ótica livre
+o recado de um amanhã diferente.
 
-renascida
-à margem de vias batidas.
+Qual caldeira cansada sob o repente
 
-Sinto
-no ar verdadeiro milagre
+de um vapor misterioso e forte
 
-descubro
-em mim desconhecido ser
+aqueço-me para emanar
 
-trocado
-pelo privilégio de entender
+uma energia consciente.
 
-o
-recado de um amanhã diferente.
+ 
 
-Qual
-caldeira cansada sob o repente
+Sinto-me pleno de novos juízos
 
-de
-um vapor misterioso e forte
+e neles garimpo outras mensagens
 
-aqueço-me
-para emanar
+a serem traduzidas em nortes.
 
-uma
-energia consciente.
+Filhos é hora de traçar novos mapas
 
+Para todos nós viajarmos mais.
 
+Filhos é preciso partir já
 
-Sinto-me
-pleno de novos juízos
-
-e
-neles garimpo outras mensagens
-
-a
-serem traduzidas em nortes.
-
-Filhos
-é hora de traçar novos mapas
-
-Para
-todos nós viajarmos mais.
-
-Filhos
-é preciso partir já
-
-pois
-há muitas verdades a visitar.
+pois há muitas verdades a visitar.
