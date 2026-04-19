@@ -18,70 +18,26 @@ resources:
     <h2>DESLIMITES</h2>
     <p>Livro de Poesias de José Predebon</p>
 
-    <table class="poesias-table">
-      <tr>
-        <td><a href="/criatividade/livros/deslimites/poesias/deslimites/">DESLIMITES</a></td>
-        <td><a href="/criatividade/livros/deslimites/poesias/o-que-vale-o-voar/">O QUE VALE O VOAR</a> e <a href="/criatividade/livros/deslimites/poesias/desconfio-da-logica/">DESCONFIO DA LÓGICA</a></td>
-      </tr>
-      <tr>
-        <td><a href="/criatividade/livros/deslimites/poesias/so-viver/">SÓ VIVER</a></td>
-        <td><a href="/criatividade/livros/deslimites/poesias/nada-se-deve/">NADA SE DEVE</a></td>
-      </tr>
-      <tr>
-        <td><a href="/criatividade/livros/deslimites/poesias/sonho/">SONHO</a></td>
-        <td><a href="/criatividade/livros/deslimites/poesias/ajuste/">AJUSTE</a> e <a href="/criatividade/livros/deslimites/poesias/desencanto/">DESENCANTO</a></td>
-      </tr>
-      <tr>
-        <td><a href="/criatividade/livros/deslimites/poesias/dialogo/">DIÁLOGO</a> e <a href="/criatividade/livros/deslimites/poesias/toma-la/">TOMA LÁ</a></td>
-        <td><a href="/criatividade/livros/deslimites/poesias/reflexao/">REFLEXÃO</a></td>
-      </tr>
-      <tr>
-        <td><a href="/criatividade/livros/deslimites/poesias/do-ambicioso/">DO AMBICIOSO</a></td>
-        <td><a href="/criatividade/livros/deslimites/poesias/seja-assim/">SEJA ASSIM</a> e <a href="/criatividade/livros/deslimites/poesias/pesadelo/">PESADELO</a></td>
-      </tr>
-      <tr>
-        <td><a href="/criatividade/livros/deslimites/poesias/ao-que-vai/">AO QUE VAI</a></td>
-        <td><a href="/criatividade/livros/deslimites/poesias/amizade/">AMIZADE</a> e <a href="/criatividade/livros/deslimites/poesias/solidariedade/">SOLIDARIEDADE</a></td>
-      </tr>
-      <tr>
-        <td><a href="/criatividade/livros/deslimites/poesias/ritos/">RITOS</a> e <a href="/criatividade/livros/deslimites/poesias/dar-se/">DAR-SE</a></td>
-        <td><a href="/criatividade/livros/deslimites/poesias/lembras/">LEMBRAS</a> e <a href="/criatividade/livros/deslimites/poesias/so-e-bem/">SÓ E BEM</a></td>
-      </tr>
-      <tr>
-        <td><a href="/criatividade/livros/deslimites/poesias/enlevo/">ENLEVO</a></td>
-        <td><a href="/criatividade/livros/deslimites/poesias/lembrancas/">LEMBRANÇAS</a></td>
-      </tr>
-      <tr>
-        <td><a href="/criatividade/livros/deslimites/poesias/expectativa/">EXPECTATIVA</a></td>
-        <td><a href="/criatividade/livros/deslimites/poesias/ser-especial/">SER ESPECIAL</a></td>
-      </tr>
-      <tr>
-        <td><a href="/criatividade/livros/deslimites/poesias/do-pai/">DO PAI</a></td>
-        <td><a href="/criatividade/livros/deslimites/poesias/do-velho-no-espelho/">DO VELHO NO ESPELHO</a> e <a href="/criatividade/livros/deslimites/poesias/autenticidade/">AUTENTICIDADE</a></td>
-      </tr>
-      <tr>
-        <td><a href="/criatividade/livros/deslimites/poesias/a-arte-do-possivel/">A ARTE DO POSSIVEL</a> e <a href="/criatividade/livros/deslimites/poesias/conciliar/">CONCILIAR</a></td>
-        <td><a href="/criatividade/livros/deslimites/poesias/mudar/">MUDAR</a></td>
-      </tr>
-      <tr>
-        <td><a href="/criatividade/livros/deslimites/poesias/plano-de-defesa/">PLANO DE DEFESA</a> e <a href="/criatividade/livros/deslimites/poesias/andar-e-preciso/">ANDAR É PRECISO</a></td>
-        <td><a href="/criatividade/livros/deslimites/poesias/sim-e-nao/">SIM E NÃO</a> e <a href="/criatividade/livros/deslimites/poesias/gregarios/">GREGÁRIOS?</a></td>
-      </tr>
-      <tr>
-        <td><a href="/criatividade/livros/deslimites/poesias/por-quem-os-jovens-voam/">POR QUEM OS JOVENS VOAM</a></td>
-        <td><a href="/criatividade/livros/deslimites/poesias/filhos/">FILHOS</a></td>
-      </tr>
-      <tr>
-        <td><a href="/criatividade/livros/deslimites/poesias/ser-natural/">SER NATURAL</a></td>
-        <td><a href="/criatividade/livros/deslimites/poesias/natal/">NATAL</a></td>
-      </tr>
-      <tr>
-        <td><a href="/criatividade/livros/deslimites/poesias/ano-novo/">ANO NOVO</a> e <a href="/criatividade/livros/deslimites/poesias/ate-sempre/">ATÉ SEMPRE</a></td>
-        <td></td>
-      </tr>
-    </table>
+    | Poesia 1 | Poesia 2 |
+    |----------|----------|
+    | [DESLIMITES](/criatividade/livros/deslimites/poesias/deslimites/) | [O QUE VALE O VOAR](/criatividade/livros/deslimites/poesias/o-que-vale-o-voar/) e [DESCONFIO DA LÓGICA](/criatividade/livros/deslimites/poesias/desconfio-da-logica/) |
+    | [SÓ VIVER](/criatividade/livros/deslimites/poesias/so-viver/) | [NADA SE DEVE](/criatividade/livros/deslimites/poesias/nada-se-deve/) |
+    | [SONHO](/criatividade/livros/deslimites/poesias/sonho/) | [AJUSTE](/criatividade/livros/deslimites/poesias/ajuste/) e [DESENCANTO](/criatividade/livros/deslimites/poesias/desencanto/) |
+    | [DIÁLOGO](/criatividade/livros/deslimites/poesias/dialogo/) e [TOMA LÁ](/criatividade/livros/deslimites/poesias/toma-la/) | [REFLEXÃO](/criatividade/livros/deslimites/poesias/reflexao/) |
+    | [DO AMBICIOSO](/criatividade/livros/deslimites/poesias/do-ambicioso/) | [SEJA ASSIM](/criatividade/livros/deslimites/poesias/seja-assim/) e [PESADELO](/criatividade/livros/deslimites/poesias/pesadelo/) |
+    | [AO QUE VAI](/criatividade/livros/deslimites/poesias/ao-que-vai/) | [AMIZADE](/criatividade/livros/deslimites/poesias/amizade/) e [SOLIDARIEDADE](/criatividade/livros/deslimites/poesias/solidariedade/) |
+    | [RITOS](/criatividade/livros/deslimites/poesias/ritos/) e [DAR-SE](/criatividade/livros/deslimites/poesias/dar-se/) | [LEMBRAS](/criatividade/livros/deslimites/poesias/lembras/) e [SÓ E BEM](/criatividade/livros/deslimites/poesias/so-e-bem/) |
+    | [ENLEVO](/criatividade/livros/deslimites/poesias/enlevo/) | [LEMBRANÇAS](/criatividade/livros/deslimites/poesias/lembrancas/) |
+    | [EXPECTATIVA](/criatividade/livros/deslimites/poesias/expectativa/) | [SER ESPECIAL](/criatividade/livros/deslimites/poesias/ser-especial/) |
+    | [DO PAI](/criatividade/livros/deslimites/poesias/do-pai/) | [DO VELHO NO ESPELHO](/criatividade/livros/deslimites/poesias/do-velho-no-espelho/) e [AUTENTICIDADE](/criatividade/livros/deslimites/poesias/autenticidade/) |
+    | [A ARTE DO POSSIVEL](/criatividade/livros/deslimites/poesias/a-arte-do-possivel/) e [CONCILIAR](/criatividade/livros/deslimites/poesias/conciliar/) | [MUDAR](/criatividade/livros/deslimites/poesias/mudar/) |
+    | [PLANO DE DEFESA](/criatividade/livros/deslimites/poesias/plano-de-defesa/) e [ANDAR É PRECISO](/criatividade/livros/deslimites/poesias/andar-e-preciso/) | [SIM E NÃO](/criatividade/livros/deslimites/poesias/sim-e-nao/) e [GREGÁRIOS?](/criatividade/livros/deslimites/poesias/gregarios/) |
+    | [POR QUEM OS JOVENS VOAM](/criatividade/livros/deslimites/poesias/por-quem-os-jovens-voam/) | [FILHOS](/criatividade/livros/deslimites/poesias/filhos/) |
+    | [SER NATURAL](/criatividade/livros/deslimites/poesias/ser-natural/) | [NATAL](/criatividade/livros/deslimites/poesias/natal/) |
+    | [ANO NOVO](/criatividade/livros/deslimites/poesias/ano-novo/) e [ATÉ SEMPRE](/criatividade/livros/deslimites/poesias/ate-sempre/) |  |
 
-    <p>“É PRECISO PARTIR JÁ, HÁ MUITAS VERDADES A VISITAR”.</p>
+    <p>"É PRECISO PARTIR JÁ, HÁ MUITAS VERDADES A VISITAR".</p>
     <p>(*) clique nos títulos para ler</p>
   </div>
 </div>
+
