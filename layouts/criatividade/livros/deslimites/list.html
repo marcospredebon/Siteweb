@@ -17,7 +17,7 @@
           </header>
 
           <div class="poesias-grid">
-            {{ range .Pages.ByTitle }}
+            {{ range where .Site.RegularPages ".Section" "poesias" }}
               <article class="poesia-card">
                 <a href="{{ .RelPermalink }}">
                   <h3>{{ .Title }}</h3>
