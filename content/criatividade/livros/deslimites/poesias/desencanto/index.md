@@ -3,4 +3,17 @@ title: "DESENCANTO"
 description: "Poesia do livro Deslimites"
 ---
 
-[Texto da poesia aqui - a ser preenchido]
+DESENCANTO
+
+Triste
+mágica mora na mão
+
+que
+ao
+tocar o objeto sonhado
+
+o
+transforma em testemunho
+
+da
+misteriosa morte do desejo.

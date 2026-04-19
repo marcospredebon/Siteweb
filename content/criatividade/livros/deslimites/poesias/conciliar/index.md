@@ -3,4 +3,18 @@ title: "CONCILIAR"
 description: "Poesia do livro Deslimites"
 ---
 
-[Texto da poesia aqui - a ser preenchido]
+CONCILIAR
+
+Adeus
+à
+imutilidade total
+
+dos
+encontros casuais.
+
+Mesmo
+a
+conversa banal
+
+trará
+uma troca a mais.

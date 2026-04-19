@@ -3,4 +3,16 @@ title: "DAR-SE"
 description: "Poesia do livro Deslimites"
 ---
 
-[Texto da poesia aqui - a ser preenchido]
+DAR-SE
+
+Ao
+explicar nos esclarecemos
+
+ao
+consolar nos reconfortamos
+
+ao
+orientar nos localizamos.
+
+Ao
+abrir portas também entramos.

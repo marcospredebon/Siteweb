@@ -3,4 +3,18 @@ title: "DESCONFIO DA LÓGICA"
 description: "Poesia do livro Deslimites"
 ---
 
-[Texto da poesia aqui - a ser preenchido]
+DESCONFIO DA LÓGICA
+
+QUE
+ME CONVIDA
+
+A
+ABANDONAR
+
+AS
+CAUSAS PERDIDAS.
+
+NELAS
+NOS VEMOS
+
+HUMANOS.
