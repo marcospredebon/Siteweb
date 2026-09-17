@@ -17,5 +17,5 @@ Explore recursos sobre Microsoft Power Platform e ferramentas modernas:
 - [Uso do AI Builder](https://learn.microsoft.com/pt-br/ai-builder/overview)
 - [Melhores práticas de adoção](https://learn.microsoft.com/pt-br/power-platform/guidance/adoption/whats-new)
 - [Kit do Centro de Excelência (CoE)](https://learn.microsoft.com/pt-br/power-platform/guidance/coe/starter-kit)
-- [Gerenciamento do ciclo de vida (ALM)](https://learn.microsoft.com/pt-br/power-platform/alm/overview)
+- [Gerenciamento do ciclo de vida (ALM)](https://learn.microsoft.com/pt-br/power-platform/alm)
 - [Build Tools para Azure DevOps](https://learn.microsoft.com/pt-br/power-platform/alm/devops-build-tools)
