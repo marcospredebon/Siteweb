@@ -36,11 +36,31 @@ jobs:
       - name: Build site
         run: hugo --minify --destination public --baseURL "https://marcospredebon.github.io/Siteweb/"
 
-      - name: Verify index.html exists
+      - name: Verify built homepage is Hugo HTML
         run: |
           test -f public/index.html
-          ls -la public
-          ls -la public/css || true
+          grep -q "Tecnologia e Criatividade" public/index.html
+          if grep -q "Não é um projeto Node" public/index.html; then
+            echo "Build produced README content instead of the Hugo homepage"
+            exit 1
+          fi
+
+      - name: Point GitHub Pages to the gh-pages branch
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api --method PUT "/repos/${GITHUB_REPOSITORY}/pages" \
+            -H "Accept: application/vnd.github+json" \
+            --input - <<'EOF'
+          {
+            "build_type": "legacy",
+            "source": {
+              "branch": "gh-pages",
+              "path": "/"
+            }
+          }
+          EOF
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
@@ -51,5 +71,4 @@ jobs:
           force_orphan: false
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
-          # Garante que o Pages não processe o site com Jekyll
           enable_jekyll: false
