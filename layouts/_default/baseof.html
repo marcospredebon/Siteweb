@@ -26,7 +26,11 @@
   </main>
 
   <footer>
-    © {{ now.Year }} Marcos • Em memória de José Predebon
+    {{ if or .IsHome (eq .Section "tecnologia") }}
+      © {{ now.Year }} Marcos Predebon
+    {{ else }}
+      © {{ now.Year }} Marcos • Em memória de José Predebon
+    {{ end }}
   </footer>
 
 </body>
