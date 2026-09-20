@@ -1,5 +1,6 @@
 baseURL = "https://marcospredebon.github.io/Siteweb/"
 languageCode = "pt-br"
+defaultContentLanguage = "pt-br"
 title = "Tecnologia e Criatividade"
 enableGitInfo = false
 canonifyURLs = false
