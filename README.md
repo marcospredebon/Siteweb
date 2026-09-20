@@ -65,9 +65,12 @@ Não é necessário `npm install` nem qualquer outra instalação de pacotes JS.
 
 ## Publicar no GitHub Pages
 
+Se a URL pública mostrar este README, o Pages está lendo a branch `main`.
+Isso publica o código-fonte, não o HTML do Hugo.
+
 1. Confirme em **Settings → Pages**:
    - Source: **Deploy from a branch**
-   - Branch: **`gh-pages`**
+   - Branch: **`gh-pages`**  ← não use `main`
    - Folder: **`/ (root)`**
 2. Envie as alterações para `main`:
 
