@@ -10,13 +10,13 @@
   <div class="content-list">
     {{ range .Paginator.Pages }}
       <article class="list-item">
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
         {{ if .Description }}
           <p>{{ .Description }}</p>
         {{ else if .Summary }}
           <p>{{ .Summary }}</p>
         {{ end }}
-        <a href="{{ .Permalink }}" class="read-more">Saiba mais →</a>
+        <a href="{{ .RelPermalink }}" class="read-more">Saiba mais →</a>
       </article>
     {{ end }}
   </div>
