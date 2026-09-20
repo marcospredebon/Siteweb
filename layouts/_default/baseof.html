@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}pt-br{{ end }}">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>{{ .Title }}</title>
-  <!-- CSS CORRETO: link para custom.css com BaseURL -->
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css"> 
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 </head>
 <body>
   <header>
-    <h1>Tecnologia e Criatividade</h1>
+    <h1><a href="{{ .Site.Home.RelPermalink }}" style="color: inherit; text-decoration: none;">{{ .Site.Title }}</a></h1>
     <p>
       Referências úteis de Tecnologia (Marcos Predebon)<br>
       e Criatividade - legado do Professor José Predebon
@@ -17,8 +17,8 @@
   </header>
 
   <nav class="main-menu">
-    <a href="{{ .Site.BaseURL }}tecnologia/">Tecnologia</a>
-    <a href="{{ .Site.BaseURL }}criatividade/">Criatividade</a>
+    <a href="{{ "tecnologia/" | relURL }}">Tecnologia</a>
+    <a href="{{ "criatividade/" | relURL }}">Criatividade</a>
   </nav>
 
   <main class="container">
@@ -26,7 +26,7 @@
   </main>
 
   <footer>
-    © 2025 Marcos • Em memória de José Predebon
+    © {{ now.Year }} Marcos • Em memória de José Predebon
   </footer>
 
 </body>

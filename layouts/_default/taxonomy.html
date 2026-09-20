@@ -10,7 +10,7 @@
   <div class="taxonomy-content">
     {{ range .Paginator.Pages }}
       <article class="taxonomy-item">
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
         {{ if .Summary }}
           <p>{{ .Summary }}</p>
         {{ end }}

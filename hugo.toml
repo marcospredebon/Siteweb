@@ -1,4 +1,19 @@
 baseURL = "https://marcospredebon.github.io/Siteweb/"
+languageCode = "pt-br"
+defaultContentLanguage = "pt-br"
+title = "Tecnologia e Criatividade"
+enableGitInfo = false
+canonifyURLs = false
+relativeURLs = false
+
+[params]
+  description = "Referências de Tecnologia (Marcos Predebon) e o legado do Professor José Predebon"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[pagination]
+  pagerSize = 50
 
 [menu]
   [[menu.main]]

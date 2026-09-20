@@ -1,4 +1,4 @@
-name: Build and deploy Hugo site to gh-pages
+name: Build and deploy Hugo site to GitHub Pages
 
 on:
   push:
@@ -10,14 +10,17 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-    permissions:
-      contents: write
-
+      HUGO_VERSION: "0.151.2"
+      HUGO_ENVIRONMENT: production
+      TZ: America/Sao_Paulo
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -25,27 +28,28 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: "0.151.2"
           extended: true
 
       - name: Build site
-        run: hugo --destination "$GITHUB_WORKSPACE/public" --minify
+        run: hugo --minify --destination public --baseURL "https://marcospredebon.github.io/Siteweb/"
 
-      - name: Debug workspace
+      - name: Verify index.html exists
         run: |
-          echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE" 
-          pwd
-          ls -la
-          ls -la "$GITHUB_WORKSPACE/public" || true
-        
+          test -f public/index.html
+          ls -la public
+          ls -la public/css || true
+
       - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
           force_orphan: false
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          # Garante que o Pages não processe o site com Jekyll
+          enable_jekyll: false
