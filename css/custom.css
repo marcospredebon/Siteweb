@@ -300,6 +300,7 @@ footer {
   margin-top: 1.15em;
 }
 
+.post-nav,
 footer .poem-footer-nav {
   display: flex;
   justify-content: space-between;
@@ -307,12 +308,20 @@ footer .poem-footer-nav {
   gap: 8rem;
   width: 100%;
   max-width: none;
-  margin: 0 0 12px;
   padding: 0 48px;
   box-sizing: border-box;
   text-align: left;
 }
 
+.post-nav {
+  margin: 32px 0 12px;
+}
+
+footer .poem-footer-nav {
+  margin: 0 0 12px;
+}
+
+.post-nav a,
 footer .poem-footer-nav a {
   color: #0a66c2;
   text-decoration: none;
@@ -320,10 +329,12 @@ footer .poem-footer-nav a {
   white-space: nowrap;
 }
 
+.post-nav a:last-child,
 footer .poem-footer-nav a:last-child {
   margin-left: auto;
 }
 
+.post-nav a:hover,
 footer .poem-footer-nav a:hover {
   color: #084a9c;
   text-decoration: underline;
