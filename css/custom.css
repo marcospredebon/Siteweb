@@ -262,10 +262,11 @@ footer {
 .poem-header {
   text-align: center;
   margin-bottom: 48px;
+  color: white;
 }
 
 .poem-header h1 {
-  color: #0a66c2;
+  color: white;
   font-size: 2.2rem;
   margin-bottom: 12px;
   font-weight: 700;
@@ -273,7 +274,7 @@ footer {
 }
 
 .poem-header .description {
-  color: #667085;
+  color: #e5f2ff;
   font-size: 1rem;
   margin: 0;
   font-style: italic;
@@ -291,28 +292,25 @@ footer {
 }
 
 .poem-content p {
-  margin-bottom: 1.2em;
+  margin: 0;
   white-space: pre-wrap;
 }
 
-.poem-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid #e5e7eb;
-  gap: 20px;
+.poem-content p + p {
+  margin-top: 1.15em;
 }
 
-.poem-nav a {
+footer .poem-prev {
+  margin: 0 0 10px;
+}
+
+footer .poem-prev a {
   color: #0a66c2;
   text-decoration: none;
   font-weight: 600;
-  transition: color 0.2s ease;
 }
 
-.poem-nav a:hover {
+footer .poem-prev a:hover {
   color: #084a9c;
   text-decoration: underline;
 }
