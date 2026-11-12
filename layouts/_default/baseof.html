@@ -26,13 +26,18 @@
   </main>
 
   <footer>
+    {{ $isDeslimitesChild := in .RelPermalink "/deslimites/" }}
+    {{ $isDeslimitesBook := or (eq .RelPermalink "/deslimites/") (eq .RelPermalink (relURL "criatividade/livros/deslimites/")) }}
     {{ $isDeslimitesPoem := and (eq .Kind "page") (in .RelPermalink "/deslimites/poesias/") }}
-    {{ if $isDeslimitesPoem }}
-      {{ with .PrevInSection }}
-        <p class="poem-prev">
-          <a href="{{ .RelPermalink }}">Próxima poesia: "{{ .Title }}"</a>
-        </p>
-      {{ end }}
+    {{ if and $isDeslimitesChild (not $isDeslimitesBook) }}
+      <div class="poem-footer-nav">
+        <a href="{{ "criatividade/livros/deslimites/" | relURL }}">Voltar ao Livro Deslimites</a>
+        {{ if $isDeslimitesPoem }}
+          {{ with .PrevInSection }}
+            <a href="{{ .RelPermalink }}">Próxima poesia: "{{ .Title }}"</a>
+          {{ end }}
+        {{ end }}
+      </div>
     {{ end }}
     {{ if or .IsHome (eq .Section "tecnologia") }}
       © {{ now.Year }} Marcos Predebon

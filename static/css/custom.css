@@ -300,17 +300,31 @@ footer {
   margin-top: 1.15em;
 }
 
-footer .poem-prev {
-  margin: 0 0 10px;
+footer .poem-footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8rem;
+  width: 100%;
+  max-width: none;
+  margin: 0 0 12px;
+  padding: 0 48px;
+  box-sizing: border-box;
+  text-align: left;
 }
 
-footer .poem-prev a {
+footer .poem-footer-nav a {
   color: #0a66c2;
   text-decoration: none;
   font-weight: 600;
+  white-space: nowrap;
 }
 
-footer .poem-prev a:hover {
+footer .poem-footer-nav a:last-child {
+  margin-left: auto;
+}
+
+footer .poem-footer-nav a:hover {
   color: #084a9c;
   text-decoration: underline;
 }

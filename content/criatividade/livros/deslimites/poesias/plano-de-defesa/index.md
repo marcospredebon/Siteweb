@@ -53,9 +53,3 @@ que eu tenho de verdade
 uma metade inquebrável.
 Poderosa e suficiente metade
 para me tornar inteiro forte.
-
-ANDAR É PRECISO
-O tropeço vem do erro no passo
-que mesmo às vezes mal dado
-é criação e razão de caminhos
-abertos às chances de ser e fazer.

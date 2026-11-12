@@ -68,9 +68,3 @@ como direi esta alegria?
 Nada há mais para dizer
 que seu coração já não diz
 alto voando e muito amando.
-
-TOMA LÁ
-Essa expectativa de receber
-a mesma porção entregue
-torna o ser utilitário
-um mero contador de saldos.
