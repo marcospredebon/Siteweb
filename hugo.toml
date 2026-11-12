@@ -5,6 +5,7 @@ title = "Tecnologia e Criatividade"
 enableGitInfo = false
 canonifyURLs = false
 relativeURLs = false
+disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "Referências de Tecnologia (Marcos Predebon) e o legado do Professor José Predebon"
